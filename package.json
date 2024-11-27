@@ -1,0 +1,31 @@
+{
+  "name": "mb-specification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc --watch",
+    "deploy": "npm link",
+    "un-deploy": "npm unlink -g"
+  },
+  "bin": {
+    "mb-speci": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "clipboardy": "^4.0.0",
+    "commander": "^12.1.0",
+    "inquirer": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.4",
+    "@types/clipboardy": "^2.0.4",
+    "@types/commander": "^2.12.5",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^22.10.0"
+  }
+}
